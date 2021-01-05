@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "147261689077",
+    "firebase_url": "https://cinemovie-3b4c2.firebaseio.com",
+    "project_id": "cinemovie-3b4c2",
+    "storage_bucket": "cinemovie-3b4c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147261689077:android:7b122910d8b97751",
+        "android_client_info": {
+          "package_name": "com.example.submission3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147261689077-kmb7dnkeaffp4qjkrcs51oqjlj6e9280.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.submission3",
+            "certificate_hash": "69cc0c954d40e84f8498aeab5d86279e21043434"
+          }
+        },
+        {
+          "client_id": "147261689077-20nkde9oq246dl7aqv5diqm0tabfn58n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiQqmFvQjQaNKCYoC961kLySwfVWUYoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147261689077-20nkde9oq246dl7aqv5diqm0tabfn58n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

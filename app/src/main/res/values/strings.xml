@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Cinemovie</string>
+    <string name="strOverview">Overview</string>
+    <string name="strCompany">Company(es)</string>
+    <string name="strGenre">Genre(s)</string>
+    <string name="strRD">Release Date</string>
+    <string name="strFA">First Air Date</string>
+    <string name="strPop">Popularity</string>
+    <string name="strSea">Season</string>
+    <string name="strEp">Episode</string>
+    <string name="strMv">Movie</string>
+    <string name="strTv">Tv Show</string>
+
+    <string name="strTopRated">Top Rated</string>
+    <string name="strUpc">Up Coming</string>
+    <string name="strPopTit">Populer</string>
+    <string name="strNP">Now Playing</string>
+
+    <string name="strOTA">On The Air</string>
+    <string name="strAN">Airing Today</string>
+
+    <string name="strLoadMore">Load More</string>
+
+    <string name="strTrail">Trailer</string>
+    <string name="strWatchOn">Watch On Youtube App</string>
+
+    <string name="strDownload">Find Download Source</string>
+    <string name="strFav">Favorites</string>
+    <string name="strLang">Language Setting</string>
+    <string name="strWeb">Open With Other Browser</string>
+
+    <string name="strSearchHint">Find Movies or Tv Shows</string>
+
+    <string name="strDailyTitle">Daily Reminder</string>
+    <string name="strDailyDesc">This feature will remind you to see the latest Movies or Tv Shows at 07:00 AM every day.</string>
+
+    <string name="strReleaseTitle">Release Reminder</string>
+    <string name="strReleaseDesc">This feature will send you Notification about the Movie that will be released soon.</string>
+
+    <string name="strReminder">Reminder Setting</string>
+    <string name="strLiveChat">Live Chat</string>
+
+    <string name="strSetID">Set ID</string>
+    <string name="strMe">Me</string>
+    <string name="strNID">Create New ID</string>
+
+    <string name="strAlready">Already in Favorite</string>
+    <string name="strAddFav">Add to Favorite</string>
+
+    <string name="appwidget_text">Favorites Cinemovie</string>
+    <string name="add_widget">Add widget</string>
+</resources>

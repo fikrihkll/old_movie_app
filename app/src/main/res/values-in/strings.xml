@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cinemovie</string>
+    <string name="strOverview">Gambaran Cerita</string>
+    <string name="strCompany">Perusahaan</string>
+    <string name="strGenre">Genre</string>
+    <string name="strRD">Tanggal Rilis</string>
+    <string name="strFA">Tayang Perdana</string>
+    <string name="strPop">Poplaritas</string>
+    <string name="strSea">Season</string>
+    <string name="strEp">Episode</string>
+    <string name="strMv">Filem</string>
+    <string name="strTv">Acara Tv</string>
+
+    <string name="strTopRated">Banyak Disukai</string>
+    <string name="strUpc">Akan Datang</string>
+    <string name="strPopTit">Populer</string>
+    <string name="strNP">Sekarang Dimainkan</string>
+
+    <string name="strOTA">Di Siarkan</string>
+    <string name="strAN">Disiarkan Hari Ini</string>
+
+    <string name="strLoadMore">Muat Lebih</string>
+
+    <string name="strTrail">Trailer</string>
+    <string name="strWatchOn">Nonton DiYoutube App</string>
+
+    <string name="strDownload">Cari Sumber Download</string>
+    <string name="strFav">Favorit</string>
+    <string name="strLang">Setelan Bahasa</string>
+    <string name="strWeb">Buka Dengan Browser Lain</string>
+
+    <string name="strDailyTitle">Reminder Harian</string>
+    <string name="strDailyDesc">Fitur ini akan mengirimkan anda Notifikasi setiap pukul 07.00 pagi</string>
+
+    <string name="strReleaseTitle">Reminder Perilisan</string>
+    <string name="strReleaseDesc">Fitur ini akan mengirimkan anda Notifikasi filem yang akan segera rilis, setiap pukul 08.00 pagi</string>
+
+    <string name="strReminder">Pengaturan Notifikasi</string>
+    <string name="strLiveChat">Live Chat</string>
+
+    <string name="strSetID">Set ID</string>
+    <string name="strMe">Saya</string>
+    <string name="strNID">Buat ID Baru</string>
+
+    <string name="strAlready">Sudah dalam Favorit</string>
+    <string name="strAddFav">Tambahkan ke Favorit</string>
+
+    <string name="strSearchHint">Cari Filem atau Acara Tv</string>
+    <string name="appwidget_text">Favorites Cinemovie</string>
+    <string name="add_widget">Add widget</string>
+</resources>

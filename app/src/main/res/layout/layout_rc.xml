@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/margLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  " />
+
+    <TextView
+        android:id="@+id/margBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rel"
+        android:text="  "
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/margTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="4dp" />
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/margTop"
+        android:layout_toEndOf="@id/margLeft"
+        android:background="@drawable/shadow">
+
+        <ImageView
+            android:id="@+id/ivPoster"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="Poster"
+            tools:srcCompat="@tools:sample/avatars[0]" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/ivPoster"
+            android:layout_alignEnd="@id/ivPoster"
+            android:background="@color/greyBg">
+
+            <ImageView
+                android:id="@+id/ratingBar"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
+
+            <TextView
+                android:id="@+id/ratingVal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/ratingBar"
+                android:fontFamily="@font/bms"
+                android:text="5.5"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="Rating" />
+
+            <ImageView
+                android:id="@+id/ivFav"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                app:srcCompat="@drawable/ic_love_blank" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/ivPoster"
+            android:layout_alignEnd="@id/ivPoster"
+            android:layout_alignBottom="@id/ivPoster"
+            android:background="@color/greyBg"
+            android:text="_Get"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            tools:text="Date" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivPoster"
+            android:layout_alignEnd="@id/ivPoster"
+            android:fontFamily="@font/bms"
+            android:text="_get"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Date" />
+
+        <Button
+            android:id="@+id/btnTrailer"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvTitle"
+            android:layout_alignStart="@id/tvTitle"
+            android:layout_alignEnd="@id/tvTitle"
+            android:drawableLeft="@drawable/ic_trailer"
+            android:fontFamily="@font/bms"
+            android:text="@string/strTrail"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

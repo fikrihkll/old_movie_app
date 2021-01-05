@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relFind"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/sIvPoster"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:background="@color/greyBg"
+        android:contentDescription="Poster"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+
+    <TextView
+        android:id="@+id/sTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@+id/sIvPoster"
+        android:fontFamily="@font/bms"
+        android:text="_"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sTvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sTvTitle"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/sIvPoster"
+        android:fontFamily="@font/bms"
+        android:text="_" />
+
+    <TextView
+        android:id="@+id/sTvRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@+id/imageView3"
+        android:fontFamily="@font/bms"
+        android:text="_"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/sTvDate"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/sIvPoster"
+        android:contentDescription="Star"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/sIvPoster"
+        android:background="@color/grey" />
+</RelativeLayout>
